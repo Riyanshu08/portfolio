@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#061224">
+  <meta name="description" content="Riyanshu Sharma — AI & Data Science student, developer, and builder.">
+  <title>Riyanshu Sharma | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a class="logo" href="#home">RIYANSHU <span>SHARMA</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <nav id="navMenu">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="availability">
+      <span></span> Open to opportunities
+    </a>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, I'M RIYANSHU</p>
+
+        <h1>
+          Building useful things<br>
+          with <span>AI &amp; code.</span>
+        </h1>
+
+        <p class="role">
+          AI &amp; Data Science Student · Developer · Builder
+        </p>
+
+        <p class="intro">
+          I enjoy turning ideas into practical digital experiences,
+          from thoughtful web interfaces to data-driven and AI-powered
+          tools. I learn by building, experimenting, and improving
+          one project at a time.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore projects ↗
+          </a>
+
+          <a href="assets/resume.pdf" class="btn btn-outline"
+             target="_blank" rel="noopener">
+            ↓ Download resume
+          </a>
+        </div>
+
+        <div class="tech-pills">
+          <span>🐍 Python</span>
+          <span>⚛ React</span>
+          <span>⬡ Node.js</span>
+          <span>▤ SQL</span>
+          <span>✳ Machine Learning</span>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orb">
+          <div class="orb-inner"></div>
+        </div>
+        <span class="art-label top-label">IDEAS → PROTOTYPES</span>
+        <span class="art-label bottom-label">LEARN · BUILD · REPEAT</span>
+      </div>
+    </section>
+
+    <section class="container section" id="about">
+      <div class="section-heading">
+        <span class="heading-line"></span>
+        <h2>A little about me</h2>
+      </div>
+
+      <div class="about-card">
+        <div class="initials">RS<span>.</span></div>
+
+        <div>
+          <h3>Curiosity first. Build with purpose.</h3>
+          <p class="muted">
+            I'm an AI &amp; Data Science student interested in software
+            development, machine learning, and tools that solve real
+            problems. This portfolio is a collection of what I'm
+            learning and creating. I value readable code, useful
+            documentation, and steady progress over buzzwords.
+          </p>
+        </div>
+
+        <div class="repo-stat">
+          <strong id="repoCount">—</strong>
+          <span>public repositories</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" id="projects">
+      <div class="section-heading project-heading">
+        <div class="heading-title">
+          <span class="heading-line"></span>
+          <h2>My GitHub projects</h2>
+        </div>
+
+        <div class="project-controls">
+          <span id="repoStatus" aria-live="polite">
+            Preparing GitHub connection…
+          </span>
+          <button id="refreshRepos" class="refresh-btn">
+            ↻ Refresh
+          </button>
+        </div>
+      </div>
+
+      <div id="projectGrid" class="project-grid">
+        <article class="project-card loading-card">
+          <div class="skeleton-image"></div>
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line short"></div>
+        </article>
+
+        <article class="project-card loading-card">
+          <div class="skeleton-image"></div>
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line short"></div>
+        </article>
+
+        <article class="project-card loading-card">
+          <div class="skeleton-image"></div>
+          <div class="skeleton-line"></div>
+          <div class="skeleton-line short"></div>
+        </article>
+      </div>
+
+      <p class="section-note">
+        Public repositories update from GitHub. Each project uses
+        its README to create an informative overview where possible.
+      </p>
+    </section>
+
+    <section class="container section" id="skills">
+      <div class="section-heading">
+        <span class="heading-line"></span>
+        <h2>What I work with</h2>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card">
+          <div class="skill-icon">▣</div>
+          <div>
+            <h3>Frontend</h3>
+            <div class="skill-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>Responsive UI</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">⌘</div>
+          <div>
+            <h3>Backend &amp; Data</h3>
+            <div class="skill-tags">
+              <span>Python</span>
+              <span>Node.js</span>
+              <span>SQL</span>
+              <span>REST APIs</span>
+              <span>Git</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">✳</div>
+          <div>
+            <h3>AI &amp; Data Science</h3>
+            <div class="skill-tags">
+              <span>Machine Learning</span>
+              <span>Pandas</span>
+              <span>Data Analysis</span>
+              <span>Model Evaluation</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section" id="journey">
+      <div class="section-heading">
+        <span class="heading-line"></span>
+        <h2>My journey</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-icon">✦</div>
+          <div>
+            <span class="timeline-date">EDUCATION</span>
+            <h3>B.Tech — AI &amp; Data Science</h3>
+            <p class="muted">
+              Learning computer science, data, and AI concepts while
+              building practical projects.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-icon">✎</div>
+          <div>
+            <span class="timeline-date">CONTENT &amp; COMMUNICATION</span>
+            <h3>Content writing and technical learning</h3>
+            <p class="muted">
+              Developing communication, research, and documentation
+              skills alongside technical work.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-icon">⌘</div>
+          <div>
+            <span class="timeline-date">ONGOING</span>
+            <h3>Personal projects and workshops</h3>
+            <p class="muted">
+              Practising through prototypes, experiments, and
+              self-directed learning.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container contact-card" id="contact">
+      <div class="contact-icon">✉</div>
+
+      <div class="contact-copy">
+        <h2>Let's build something useful.</h2>
+        <p class="muted">
+          Open to learning opportunities, internships, and collaboration.
+        </p>
+      </div>
+
+      <a class="btn btn-primary" id="contactButton"
+         href="mailto:your.email@example.com">
+        Get in touch ↗
+      </a>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <a class="logo footer-logo" href="#home">
+      RIYANSHU <span>SHARMA</span>
+    </a>
+
+    <div class="footer-links">
+      <a id="githubFooter" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+      <a id="linkedinFooter" href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a id="emailFooter" href="mailto:your.email@example.com">Email ↗</a>
+    </div>
+
+    <span class="footer-note">Code · Learn · Build · Grow</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
