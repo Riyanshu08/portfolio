@@ -5,16 +5,13 @@
 
 const CONFIG = {
   githubUsername: "Riyanshu08",
-
-  linkedinUrl: "https://linkedin.com/in/riyanshu-sharma-64187836a",
+  linkedinUrl: "linkedin.com/in/riyanshu-sharma-64187836a",
   email: "riyanshusharma868@gmail.com",
 
+  // Updated relative path
+  resumePath: "assets/resume.pdf",
 
-
-  // Set true if you also want forked repositories
   showForks: false,
-
-  // Maximum projects to show
   maxRepos: 30
 };
 
