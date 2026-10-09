@@ -9,8 +9,7 @@ const CONFIG = {
   email: "riyanshusharma868@gmail.com",
 
   // Updated relative path
-  resumePath: "assets/RIYANSHU SHARMA Resume.docx",
-
+  resumePath: "assets/Resume.pdf",
   showForks: false,
   maxRepos: 30
 };
